@@ -83,10 +83,23 @@ for (let i = 0; i < cars.length; i++) {
 */
 const justTrims = [];
 
+cars.forEach((element) => {
+  let firstelement = element.trims.shift();
+  justTrims.push(firstelement);
+
+  console.log("Es.7 - Ecco il nuovo array con l'aggiunta della prima proprietà di ogni trims: ", justTrims);
+});
+
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+for (let index = 0; index < cars.length; index++) {
+  const element = cars[index];
+
+  console.log(element);
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
