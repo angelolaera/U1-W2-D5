@@ -96,9 +96,11 @@ cars.forEach((element) => {
 */
 
 for (let index = 0; index < cars.length; index++) {
-  const element = cars[index];
-
-  console.log(element);
+  if (cars[index].color.startsWith("b")) {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
 }
 
 /* ESERCIZIO 9
