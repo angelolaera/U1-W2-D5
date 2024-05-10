@@ -107,10 +107,17 @@ for (let index = 0; index < cars.length; index++) {
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let counter = 0;
+
+while (numericArray[0] !== 32) {
+  console.log(numericArray[counter]);
+  counter++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
 const charactersArray = ["g", "n", "u", "z", "d"];
