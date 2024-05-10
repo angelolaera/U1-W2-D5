@@ -1,1 +1,212 @@
-/* Your styles here */
+header{
+    background-color: #0f1111;
+}
+
+.logo{
+    height: 80px;
+    width: 100px;
+}
+
+.logo img{
+   padding-top: 25%;
+   padding-left: 25%;
+}
+
+.navbar {
+    text-align: left;
+    background-color: #232F3E;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-item a:hover {
+    background-color: #555;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+.orangebanner{
+    background-color:#FF9900;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin:30px;
+}
+.orangebanner h2{
+    text-align: center;
+    padding: 17px;
+}
+
+.ggbanner{
+    margin: 30px;
+    height: 200px;
+    background-image: url(../images/bg-image.png);
+    background-size: auto;
+
+}
+
+.titlecard{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.txt1{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 530;
+}
+
+.txt2{
+    color: #008175;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 530;
+}
+
+
+.bigcontainer {
+    text-align: center;
+    background-color: #cdcbcb;
+    margin: 30px;
+}
+
+.card-container {
+    text-align: center;
+    background-color: white;
+    margin: 30px;
+}
+
+.card1 {
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(../images/img_1.jpg);
+    background-size: cover;
+}
+
+.card2 {
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(../images/img_2.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+
+
+
+.card3 {
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(../images/img_3.jpg);
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+
+.card4 {
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    margin: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(../images/img_4.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+
+.bottombanner {
+    text-align: center;
+    background-color: #efeded;
+    margin: 30px;
+    padding: 20px;
+}
+
+.bmbanner1{
+    height: 400px;
+    margin: 30px;
+    background-image: url("../images/img_9.png");
+    background-size: 100%;    
+}
+
+.bmbanner2{
+    height: 400px;
+    margin: 30px;
+    background-image: url("../images/img_10.png");
+    background-size: 100%;    
+}
+
+.textbox{
+    text-align: center;
+}
+
+.txt3{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+
+.txt4{
+    color: #008175;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+
+.bannerContainer{
+    text-align: center;
+}
+
+.prebanner {
+    text-align: center;
+    background-color: #232F3E;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.prebanner a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_{
+    text-align: center;
+    background-color: #0f1111;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
